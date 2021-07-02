@@ -7,4 +7,5 @@ script:
   - cd graphiql
   - git checkout v0.7.1
   - npm install
+  - npm install eslint
   - npm test
