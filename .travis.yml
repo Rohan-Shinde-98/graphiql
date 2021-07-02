@@ -6,4 +6,5 @@ script:
   - git clone https://github.com/graphql/graphiql.git
   - cd graphiql
   - git checkout v0.7.1
+  - npm install
   - npm test
