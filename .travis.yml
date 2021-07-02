@@ -3,5 +3,6 @@ node_js: "10"
 # arch: ppc64le
 install: skip
 script:
+  - git clone https://github.com/graphql/graphiql.git
   - git checkout v0.7.1
   - npm test
