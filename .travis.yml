@@ -7,5 +7,6 @@ script:
   - cd graphiql
   - git checkout v0.7.1
   - npm install
+  - npm i eslint-plugin-import@latest --save-dev
   - npm install eslint
   - npm test
