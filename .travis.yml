@@ -1,6 +1,7 @@
 language: node_js
 node_js: "10"
-arch: ppc64le
+# arch: ppc64le
+install: skip
 script:
   - git checkout v0.7.1
   - npm test
